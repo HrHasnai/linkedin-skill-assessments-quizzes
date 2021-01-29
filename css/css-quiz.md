@@ -765,3 +765,10 @@ font-weight: bold;
 - [ ] by embedding the font file directly into the project's master JavaScript
 - [ ] by using a Google-specific CSS syntax that directly links to the desired font file
 - [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
+
+### Q78. Which shorthand font specification is invalid?
+- [ ] font: oblique bold 24px "my font";
+- [ ] font: 24px/2 sans-serif;
+- [ ] font: small-caps bold 24px/2 "my font", sans-serif;
+- [x] font: oblique 24px bold "my font", sans-serif;
+
