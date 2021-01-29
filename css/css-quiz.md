@@ -676,3 +676,37 @@ a:hover { color: rgba(0,0,255,0.5); }
 a:hover { background: rgba(blue,50%); }
 a:link { background: rgba(blue); }
 ```
+### Q66. Which CSS rule takes precedence over the others listed?
+- [ ] div.sidebar {}
+- [ ] * {}
+- [x] div#sidebar2 p {}
+- [ ] .sidebar p {}
+
+### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
+- [ ]
+```
+body {
+  background: #ffffff; /* white */
+}
+section {
+  background: 0000ff; /*blue*/
+  height: 200px;
+}
+```
+- [x] blue sections on a white background
+- [ ] Yellow sections on a blue background
+- [ ] Green sections on a white background
+- [ ] blue sections on a red background
+
+### Q68. Which CSS keyword can you use to override standard source order and specificity rules?
+- [ ] !elevate!
+- [ ] *prime
+- [ ] override
+- [x] !important
+
+### Q69. You can use the _____ pseudo-class to set a different color on a link if it was clicked on.
+- [x] a:visited
+- [ ] a:hover
+- [ ] a:link
+- [ ] a:focus
+
