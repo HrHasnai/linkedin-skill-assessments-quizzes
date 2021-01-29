@@ -683,7 +683,7 @@ a:link { background: rgba(blue); }
 - [ ] .sidebar p {}
 
 ### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
-- [ ]
+
 ```
 body {
   background: #ffffff; /* white */
@@ -710,3 +710,58 @@ section {
 - [ ] a:link
 - [ ] a:focus
 
+### Q70. Which color will look the brightest on your screen, assuming the background is white?
+- [ ] background-color: #aaa;
+- [ ] background-color: #999999;
+- [ ] background-color: rgba(170,170,170,0.5);
+- [x] background-color: rgba(170,170,170,0.2);
+
+### Q71. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+- [ ] ."header clear" {}
+- [ ] header#clear {}
+- [x] .header.clear {}
+- [ ] .header clear {}
+
+### Q72. A universal selector is specified using a(n) _____.
+- [ ] "h1" string
+- [ ] "a" character
+- [ ] "p" character
+- [x] "*" character
+### Q73. In the following CSS code, 'h1' is the _____, while 'color' is the _____.
+```
+h1 {
+  color: red;
+}
+```
+- [ ] property; declaration
+- [ ] declaration; rule
+- [ ] "p" character
+- [x] selector; property
+
+### Q74. What is an alternate way to define the following CSS rule?
+```
+font-weight: bold;
+
+```
+- [ ] font-weight: 400;
+- [ ] font-weight: medium;
+- [x] font-weight: 700;
+- [ ] font-weight: Black;
+
+### Q75. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+- [ ] It should be the first one on the list.
+- [ ] Generic fonts are discouraged from this list.
+- [x] It should be the last one on the list.
+- [ ] It should be the second one on the list.
+
+### Q76. What is one disadvantage of using a web font service?
+- [ ] It requires you to host font files on your own server.
+- [ ] It uses more of your site's bandwidth.
+- [ ] It offers a narrow selection of custom fonts.
+- [x] It is not always a free service.
+
+### Q77. How do you add Google fonts to your project?
+- [x] by using an HTML link element referring to a Google-provided CSS
+- [ ] by embedding the font file directly into the project's master JavaScript
+- [ ] by using a Google-specific CSS syntax that directly links to the desired font file
+- [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
