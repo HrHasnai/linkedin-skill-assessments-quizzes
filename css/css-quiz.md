@@ -610,3 +610,69 @@ p:first-child {
 2. Only positive number can be used.
 3. z-index must also be used with positioned elements.
 ```
+#### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+- [ ] 2000 x 1400 pixels
+- [ ] 200 x 100 pixels
+- [x] 800 x 400 pixels
+- [ ] 400 x 200 pixels
+
+#### Q59. In Chrome's Developer Tools view, where are the default styles listed?
+- [x] under the User Agent Stylesheet section on the right
+- [ ] in the third panel under the Layout tab
+- [ ] under the HTML view on the left
+- [ ] in the middle panel
+
+#### Q60. While HTML controls document structure, CSS controls _____.
+- [ ] semantic meaning
+- [ ] content meaning
+- [ ] document structure
+- [x] content appearance
+
+#### Q61. What is the recommended name you should give the folder that holds your project's images?
+- [x] images
+- [ ] #images
+- [ ] Images
+- [ ] my images
+
+#### Q62. What is an advantage of using inline CSS?
+- [ ] It is easier to manage.
+- [x] It is easier to add multiple styles through it.
+- [ ] It can be used to quickly test local CSS overrides.
+- [ ] It reduces conflict with other CSS definition methods.
+
+#### Q63.Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+- [ ] Proposed Recommendation
+- [ ] Working Draft
+- [x] Recommendation
+- [ ] Candidate Recommendation
+### Q64. Are any of the following declarations invalid?
+```
+color: red;   /* declaration A */
+font-size: 1em;   /* declaration B */
+padding: 10px 0;   /* declaration C */
+```
+- [ ] Declaration A is invalid.
+- [ ] Declaration B is invalid.
+- [ ] Declaration C is invalid.
+- [x] All declarations are valid.
+### Q65. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+- [x]
+```markdown
+a:link { background: #0000ff; }
+a:hover { background: rgba(0,0,255,0.5); }
+```
+- [ ]
+```markdown
+a { color: blue; }
+a:hover { background: white; }
+```
+- [ ]
+```markdown
+a:link { background: blue; }
+a:hover { color: rgba(0,0,255,0.5); }
+```
+- [ ]
+```markdown
+a:hover { background: rgba(blue,50%); }
+a:link { background: rgba(blue); }
+```
