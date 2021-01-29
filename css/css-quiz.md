@@ -772,3 +772,8 @@ font-weight: bold;
 - [ ] font: small-caps bold 24px/2 "my font", sans-serif;
 - [x] font: oblique 24px bold "my font", sans-serif;
 
+### Q79. What is the font size of an element in pixels, given that this element's parent has a font size set to 32px and the element's font size is set to 0.5625em?
+- [ ] 32px
+- [ ] 16px
+- [x] 18px
+- [ ] 56.25px
